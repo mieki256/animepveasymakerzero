@@ -1,0 +1,146 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Anime PV Easy Maker ZERO readme</title>
+<link rel="stylesheet" type="text/css" href="doc/style.css" />
+</head>
+<body>
+
+<h1 id="bfheader-5f95b7e0e39b5584ca2ccecbf7e40e76">Anime PV Easy Maker ZERO</h1>
+
+<p><img src="doc/ss_anipvemk_01.png" alt="タイトル画面SS" /></p>
+
+<hr />
+
+<ul>
+<li><a href="#bfheader-7f1b21a571bc81517bbf8b85b1ef7ccd" rel="toc">概要</a></li>
+<li><a href="#bfheader-ab5f27b65d5f0e7901e98d38cdb143bf" rel="toc">ソフトの特徴</a></li>
+<li><a href="#bfheader-4120251ec397c062698ca59bfbfd917a" rel="toc">動作確認OS</a></li>
+<li><a href="#bfheader-c799a7c8c7b047c649ef853530ff058a" rel="toc">インストール方法</a></li>
+<li><a href="#bfheader-108a18e18dc3f4f1fa63e345259bd3f5" rel="toc">アンインストール方法</a></li>
+<li><a href="#bfheader-6da795091dd304659c542695f9850852" rel="toc">起動方法</a></li>
+<li><a href="#bfheader-e2d6cd543e30f899075c11fd911288ea" rel="toc">スクリーンショット・チュートリアル</a></li>
+<li><a href="#bfheader-1fe917b01f9a3f87fa2d7d3b7643fac1" rel="toc">FAQ</a></li>
+<li><a href="#bfheader-79e95ba8f75158cba5acdc7c12eaa766" rel="toc">LICENSE / ライセンス</a></li>
+<li><a href="#bfheader-c46834910fc7628f02ea680c5c1f2b65" rel="toc">動作確認環境</a></li>
+<li><a href="#bfheader-5e6f22c2d4ab5b9a04f13e79122e8a91" rel="toc">開発言語・ライブラリ</a></li>
+<li><a href="#bfheader-2e305a713dba33bd1b34a4e7aeb8f065" rel="toc">履歴</a></li>
+</ul>
+
+<hr />
+
+<h2 id="bfheader-7f1b21a571bc81517bbf8b85b1ef7ccd">概要</h2>
+
+<p>曲に合わせてキーボードを押すだけで、PV(動画)が作れるフリーソフトです。</p>
+
+<h2 id="bfheader-ab5f27b65d5f0e7901e98d38cdb143bf">ソフトの特徴</h2>
+
+<ul>
+<li>ウイザード形式に似た簡単操作。</li>
+<li>サンプル画像/サンプル曲を同梱。すぐに試せます。</li>
+<li>静止画像を動かしてアニメ・動画にしますので、曲ファイルの他に、写真やイラストを数枚用意するだけで動画を作れます。</li>
+<li>キーを押したタイミングはテキストファイルで記録。本格的動画を作る際のアタリをつける作業にもどうぞ。</li>
+<li>動画編集ソフト <a href="http://spring-fragrance.mints.ne.jp/aviutl/">AviUtl+拡張編集プラグイン</a>用の exo ファイルを出力できるので、各カットのアニメの仕方も自由自在。</li>
+<li>動画変換の元素材として、連番画像を出力できます。</li>
+<li>動画変換プログラム <a href="http://www.ffmpeg.org/">FFmpeg</a> があれば、バッチファイルを実行するだけで動画に変換できます。</li>
+</ul>
+
+<h2 id="bfheader-4120251ec397c062698ca59bfbfd917a">動作確認OS</h2>
+
+<ul>
+<li>Windows7 x64</li>
+<li>Windows XP SP3 (32bit)</li>
+</ul>
+
+<h2 id="bfheader-c799a7c8c7b047c649ef853530ff058a">インストール方法</h2>
+
+<p>ダウンロードしたzipファイルを解凍して、フォルダごとお好きな場所に置いてください。</p>
+
+<ul>
+<li>Windows Vista/7/8 では、C:\Program Files\ 以外の場所に置くことをおすすめします。ソフトを実行すると設定ファイルを作りますが、C:\Program Files\ 以下はファイル書き込みが自由にできないので、動作しない可能性があります。</li>
+</ul>
+
+<h2 id="bfheader-108a18e18dc3f4f1fa63e345259bd3f5">アンインストール方法</h2>
+
+<p>フォルダごと削除してください。レジストリは使っていません。</p>
+
+<h2 id="bfheader-6da795091dd304659c542695f9850852">起動方法</h2>
+
+<p>解凍したフォルダの中の、anipvmaker.exe を実行してください。</p>
+
+<h2 id="bfheader-e2d6cd543e30f899075c11fd911288ea">スクリーンショット・チュートリアル</h2>
+
+<p><a href="./doc/screenshot.html">doc/screenshot.html</a> を見てください。</p>
+
+<h2 id="bfheader-1fe917b01f9a3f87fa2d7d3b7643fac1">FAQ</h2>
+
+<p><a href="./doc/faq.html">doc/faq.html</a> を見てください。</p>
+
+<h2 id="bfheader-79e95ba8f75158cba5acdc7c12eaa766">LICENSE / ライセンス</h2>
+
+<p>プログラム部分(*.rb)は、DXRubyのサンプルファイル群と同様に、
+<a href="http://ja.wikipedia.org/wiki/%E3%83%91%E3%83%96%E3%83%AA%E3%83%83%E3%82%AF%E3%83%89%E3%83%A1%E3%82%A4%E3%83%B3">Public domain</a>
+とします。改造・再配布等、ご自由にどうぞ。</p>
+
+<p>同梱サウンドファイル(*.mp3)のライセンスは、
+<a href="http://sciencecommons.jp/cc0/about">CC0</a>
+(<a href="http://ja.wikipedia.org/wiki/%E3%83%91%E3%83%96%E3%83%AA%E3%83%83%E3%82%AF%E3%83%89%E3%83%A1%E3%82%A4%E3%83%B3">Public domain</a> 相当)
+とします。自由に使ってください。</p>
+
+<hr />
+
+<p>同梱画像(sampledata/image?/*.jpg)のライセンスは、画像提供サイト/ソフトのライセンスを確認してください。以下のサイト/ソフトを利用しています。</p>
+
+<ul>
+<li>実写風画像 : <a href="http://www.pakutaso.com/">PAKUTASO - WEB制作向けの無料写真素材/商用可</a></li>
+<li>アニメキャラ風画像 : <a href="http://tech3d.sakura.ne.jp/3dcustom/top.html">3Dカスタム少女XP (18禁ソフト)</a></li>
+</ul>
+
+<hr />
+
+<p>同梱フォントのライセンス(.ttf , .bdf)は、フォントファイル/画像と一緒にライセンス内容を記述したテキストファイルを同梱してありますので、そちらを参照してください。以下のフォントを利用しています。</p>
+
+<ul>
+<li><a href="http://d.hatena.ne.jp/shinichiro_h/20060814#1155567183">5x5フォント : 2006-08-14 - 兼雑記</a></li>
+<li><a href="http://z.apps.atjp.jp/k12x10/">k12x10 font</a></li>
+<li><a href="http://www.geocities.jp/littlimi/misaki.htm">8×8ドット日本語フォント「美咲フォント」</a></li>
+<li><a href="http://mplus-fonts.sourceforge.jp/">M+ FONTS</a></li>
+<li><a href="http://openlab.ring.gr.jp/efont/">東雲フォント - /efont/ 電子書体オープンラボ</a></li>
+</ul>
+
+<h2 id="bfheader-c46834910fc7628f02ea680c5c1f2b65">動作確認環境</h2>
+
+<ul>
+<li>Windows7 x64</li>
+<li>CPU : Core i5 2500</li>
+<li>メモリ : 8GB</li>
+<li>ビデオカード(GPU) : NVIDIA 9800GTGE</li>
+</ul>
+
+<h2 id="bfheader-5e6f22c2d4ab5b9a04f13e79122e8a91">開発言語・ライブラリ</h2>
+
+<ul>
+<li>Ruby 1.9.3 p429 mingw版
+<ul>
+<li><a href="http://rubyinstaller.org/">RubyInstaller for Windows</a></li>
+</ul></li>
+<li>DXRuby 1.5.0 dev
+<ul>
+<li><a href="http://dxruby.sourceforge.jp/">Project DXRuby</a></li>
+<li><a href="http://dxruby.sourceforge.jp/cgi-bin/hiki.cgi?%A5%D5%A5%A1%A5%A4%A5%EB%C3%D6%A4%AD%BE%EC">DXRuby プロジェクトWiki - ファイル置き場</a></li>
+</ul></li>
+<li>Ayame/Ruby 0.0.3
+<ul>
+<li><a href="http://dxruby.sourceforge.jp/cgi-bin/hiki.cgi?%A5%D5%A5%A1%A5%A4%A5%EB%C3%D6%A4%AD%BE%EC">DXRuby プロジェクトWiki - ファイル置き場</a></li>
+</ul></li>
+</ul>
+
+<h2 id="bfheader-2e305a713dba33bd1b34a4e7aeb8f065">履歴</h2>
+
+<ul>
+<li>ver 0.0.1 (2013/08/04) とりあえず作成。</li>
+</ul>
+
+</body>
+</html>

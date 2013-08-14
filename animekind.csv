@@ -1,0 +1,21 @@
+# key,mode,about_text,r,g,b
+z,f.i,F.I,0,128,255
+x,f.o,F.O,0,128,255
+c,fix,FIX,64,64,255
+v,w.i,W.I,0,128,255
+b,w.o,W.O,0,128,255
+n,fix,FIX,64,64,255
+m,fix,FIX,64,64,255
+f,t.u,T.U,255,0,255
+g,t.b,T.B,128,0,255
+h,t.u2,T.U2,255,0,255
+j,t.b2,T.B2,128,0,255
+w,up,PAN D,0,128,0
+a,left,PAN R,0,128,0
+s,down,PAN U,0,128,0
+d,right,PAN L,0,128,0
+up,up,PAN D,0,128,0
+left,left,PAN R,0,128,0
+down,down,PAN U,0,128,0
+right,right,PAN L,0,128,0
+,end,END,255,0,0
